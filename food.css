@@ -1,0 +1,436 @@
+
+.navigation{
+    height: 100px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    
+
+}
+.navigation img{
+    height: 50%;
+}
+.navigation .nav2{
+    height: 40%;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+/* contant1 start */
+.contant1{
+    background-image: url(https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.text1{
+    color: beige;
+    text-align: center;
+    justify-content: space-around;
+    position: relative;
+    top: 40%;
+}
+button{
+    font-size: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+ padding: 10px 10px 10px 10px;
+}
+/* contant 2 start */
+.contant2{
+    height: 80vh;
+    width: 100%;
+    background-color:#f9fbfe;
+    margin: auto;
+    align-items: center;
+}
+.text2{
+    height: 20%;
+    width: 90%;
+    margin: auto;
+}
+.contant2 .boxstart{
+    height: 80%;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.contant2 .box{
+    height: 90%;
+    width: 30%;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius:10px;
+}
+.contant2 img{
+    width: 30%;
+    height: 30%;
+    position: relative;
+    top: 30px;
+    padding-bottom: 10px;
+}
+.contant2 p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+/* contant3 start */
+.contant3{
+    height: 130vh;
+    width: 98%;
+    margin: auto;
+    align-items: center;
+}
+.contant3>h1{
+    margin: auto;
+    width: 90%;
+    padding: 40px 0px 10px 0px;
+   
+}
+.contant3 .boxstart1{
+    height: 41%;
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    display:flex;
+    justify-content: space-around;
+}
+.contant3 .boxstart2{
+    height: 41%;
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    display:flex;
+    justify-content: space-around;
+    
+}
+.contant3 .box{
+    height: 88%;
+    width: 20%;
+    border-radius: 16px;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.contant3 img{
+    width: 100%;
+    height: 60%;
+    border-radius: 16px;
+}
+.contant3 h1{
+    margin: auto;
+}
+/* contant 4 */
+.contant4{
+    height: 60vh;
+    width: 99%;
+    background-color:#f9fbfe;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.contant4 .boxstart1{
+    height: 70%;
+    width: 40%;
+    text-align: center;
+}
+.contant4 .boxstart2{
+    height: 70%;
+    width: 50%;
+}
+.contant4 img{
+    height: 99%;
+    width: 70%;
+}
+.contant4 button{
+    border-radius: 16px;
+    background-color: rgb(233, 173, 95);
+}
+/* contant 5 */
+.contant5{
+    height: 50vh;
+    width: 99%;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.contant5 .boxstart1{
+    height: 85%;
+    width: 50%;
+}
+.contant5 .boxstart2{
+    height: 85%;
+    width: 30%;
+    text-align: center;
+}
+.contant5 .box1{
+    height: 70%;
+    width: 90%;
+    margin: auto;
+}
+.contant5 button{
+    border-radius: 16px;
+    background-color: rgb(233, 173, 95);
+}
+.contant5 .box2{
+    height: 20%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+}
+.contant5 .box2 img{
+    size: 10px;
+}
+.contant5 .boxstart2 img{
+    height: 90%;
+    width: 60%;
+}
+.contant6{
+    height: 60vh;
+    width: 99%;
+    margin: auto; 
+    display: flex;
+    justify-content: center;
+    background-color: rgb(235, 214, 147);
+   align-items: center;
+}
+.contant6 .boxstart1{
+    height: 70%;
+    width: 40%;
+    align-items: center;
+}
+.contant6 button{
+    border-radius: 16px;
+    background-color: rgb(231, 160, 66);
+}
+.contant6 .boxstart2{
+    height: 80%;
+    width: 40%;
+    align-items: center;
+
+}
+.contant6 .boxstart2 img{
+    height: 90%;
+    width: 50%;
+}
+/* contant 7 */
+.contant7{
+    height: 35vh;
+    width: 99%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.contant7 .boxstart1{
+    height: 40%;
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+}
+.contant7 .boxstart2{
+    height: 40%;
+    width: 20%;
+    margin: auto;
+   text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.contant7 img{
+    height: 70%;
+    width: 40px;
+    border-radius: 30px;
+}
+/* contant 8 */
+
+.contant8{
+    color: #f9fbfe;
+    height: 25vh;
+    width: 93%;
+    background-color: rgb(4, 10, 15);
+    margin: auto;
+    text-align: center;
+    padding: 40px;
+
+}
+.contant8 img{
+    height: 60px;
+    width: 60px;
+    
+}
+@media screen and (min-width:150px) and (max-width:900px){
+.navigation{
+        height: 20%;
+        width: 99%;
+        background-color: #ffffff;
+        display: flex;
+        /* align-items: center; */
+    }
+  .navigation img{
+        height: 50%;
+        width: 40;
+    }
+
+.navigation .nav2{
+    font-size: smaller;
+    height: 100%;
+    width: 50%;
+    display: flow-root;
+}
+.contant1{
+    background-image: url(https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png);
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+}
+.contant2{
+    height: auto;
+    width: 100%;
+    background-color:#f9fbfe;
+    margin: auto;
+    align-items: center;
+}
+.text2{
+    height: 30vh;
+    width: 90%;
+    margin: auto;
+}
+.contant2 .boxstart{
+    height:auto;
+    width: 90%;
+    margin: auto;
+    display: flow-root;
+}
+
+.contant2 .box{
+    height: 60vh;
+    width: auto;
+    text-align: center;
+    border-radius:10px;
+    font-size: smaller;
+}
+.contant3{
+    height: auto;
+    width: 98%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+.contant3 .boxstart1{
+    height: auto;
+    width: 100%;
+    align-items: center;
+    margin: auto;
+    display:flow-root;
+
+}
+.contant3 .boxstart2{
+    height: auto;
+    width: 100%;
+    align-items: center;
+    margin: auto;
+    display:flow-root;
+
+}
+.contant3 .box{
+    height: 50vh;
+    width: 95%;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.contant4{
+    height:auto;
+    width: 99%;
+    background-color:#f9fbfe;
+    margin: auto;
+    display: flow-root;
+    align-items: center;
+    text-align: center;
+}
+.contant4 .boxstart1{
+    height: 60vh;
+    width: 99%;
+    text-align: center;
+}
+.contant4 .boxstart2{
+    height: 60vh;
+    width: 99%;
+    text-align: center;
+    margin: auto;
+}
+.contant5{
+    height: auto;
+    width: 99%;
+    margin: auto;
+    align-items: center;
+    display: flow-root;
+}
+.contant5 .boxstart1{
+    height: auto;
+    width: 99%;
+    text-align: center;
+}
+.contant5 .boxstart2{
+    height: 60vh;
+    width: 99%;
+    text-align: center;
+}
+.contant5 .box1{
+    height: 40vh;
+    width: 90%;
+    /* margin: auto; */
+}
+.contant5 button{
+    border-radius: 16px;
+    background-color: rgb(233, 173, 95);
+}
+.contant5 .box2{
+    height: auto;
+    width: 99%;
+    display: flow-root;
+
+}
+.contant5 .boxstart1 .box2 img{
+    width: 10%;
+    height: 10%;
+}
+.contant6{
+    height: auto;
+    width: 99%;
+    margin: auto;
+    display: flow-root; 
+}
+.contant6 .boxstart1{
+    height: 40vh;
+    width: 99%;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.contant6 .boxstart2{
+    height: 40vh;
+    width: 99%;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.contant8{
+    color: #f9fbfe;
+    height: 35vh;
+    width: 99%;
+    background-color: rgb(4, 10, 15);
+    margin: auto;
+    text-align: center;
+    padding: 0%;
+
+
+}
+}
